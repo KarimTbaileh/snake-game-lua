@@ -80,28 +80,34 @@ file:write(tostring(score))
 local file = io.open("highscore.txt", "w")
 file:write(tostring(score))
 file:close()
+```
 
-Metamethods (vector2.lua)
-Custom operators for Vector2 math:
-__add → Vector addition (v1 + v2)
-__sub → Vector subtraction (v1 - v2)
-__mul → Scalar multiplication (v * 2)
-__eq → Equality check (v1 == v2)
-__tostring → String representation
+### Custom Metamethods
+**File:** `vector2.lua`
 
-📊 Features Checklist
-Game starts with menu
-Snake moves and changes direction
-Food spawns randomly when eaten
-Score increases on food consumption
-High score saves/loads to file
-Vector2 math operations work
-Game over on wall/self collision
-Event system (Bonus - 2 points)
+The `Vector2` class implements custom metamethods to allow natural mathematical syntax:
+
+- `__add` → Vector addition (`v1 + v2`)
+- `__sub` → Vector subtraction (`v1 - v2`)
+- `__mul` → Scalar multiplication (`v * 2`)
+- `__eq` → Equality check (`v1 == v2`)
+- `__tostring` → String representation
+
+## ✅ Features Checklist
+
+- [x] Game starts with menu
+- [x] Snake moves and changes direction
+- [x] Food spawns randomly when eaten
+- [x] Score increases on food consumption
+- [x] High score saves/loads to file
+- [x] Vector2 math operations work
+- [x] Game over on wall/self collision
+- [x] Event system (Bonus - 2 points)
 
 
-Assignment Info
-Course: AI and Gaming
-Assignment: Lua Game Programming - Snake
-Student: Karim Tbaileh
-Student ID: 12217811
+## 👤 Assignment Info
+
+- **Course:** AI and Gaming
+- **Assignment:** Lua Game Programming - Snake
+- **Student:** Karim Tbaileh
+- **Student ID:** 12217811

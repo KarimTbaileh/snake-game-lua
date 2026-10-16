@@ -36,9 +36,11 @@ love snake_game/
 ### Game Over
 ![Game Over](screenshots/gameover.png)
 
-## 📁 Project Structure
+##  Project Structure
+
+```text
 snake_game/
-├── main.lua              # Entry point and main game loop
+── main.lua              # Entry point and main game loop
 ├── gamestate.lua         # State manager (Menu ↔ Playing)
 ├── entity.lua            # Entity-Component system
 ├── vector2.lua           # Vector math utilities with metamethods
@@ -49,7 +51,7 @@ snake_game/
     ├── menu_state.lua    # Main menu state
     ├── game_state.lua    # Playing state wrapper
     └── snake_game.lua    # Core game logic and rendering
-
+```
 
 ## 🎯 Design Patterns Used
 
